@@ -1,10 +1,10 @@
-package java.lambda;
+package com.mca.java8.lambda;
 
 import org.junit.Test;
 
 import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
-import java.vo.Employee;
+import com.mca.java8.vo.Employee;
 
 /**
  * @Description Lambda表达式练习

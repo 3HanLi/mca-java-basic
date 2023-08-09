@@ -1,4 +1,4 @@
-package java.vo;
+package com.mca.java8.vo;
 
 import lombok.Data;
 
