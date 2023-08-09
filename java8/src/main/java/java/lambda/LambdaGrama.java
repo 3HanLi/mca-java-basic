@@ -1,10 +1,10 @@
 package java.lambda;
 
-import com.wy.mac.java.basic.java8.vo.Employee;
 import org.junit.Test;
 
 import java.util.Comparator;
 import java.util.function.Consumer;
+import java.vo.Employee;
 
 /**
  * Lambda表达式语法：
