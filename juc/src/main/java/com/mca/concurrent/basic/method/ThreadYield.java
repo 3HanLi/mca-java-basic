@@ -1,6 +1,6 @@
 package com.mca.concurrent.basic.method;
 
-import com.wy.mac.java.concurrent.util.TimeUnitUtil;
+import com.mca.concurrent.util.TimeUnitUtil;
 
 /**
  * Thread.yield：线程让步

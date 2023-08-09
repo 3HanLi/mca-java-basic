@@ -1,6 +1,7 @@
 package com.mca.concurrent.basic.sync;
 
-import com.wy.mac.java.concurrent.util.TimeUnitUtil;
+
+import com.mca.concurrent.util.TimeUnitUtil;
 
 /**
  * synchronized锁优化

@@ -1,6 +1,7 @@
 package com.mca.concurrent.cas;
 
 import com.google.common.collect.Lists;
+import com.mca.concurrent.vo.User;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

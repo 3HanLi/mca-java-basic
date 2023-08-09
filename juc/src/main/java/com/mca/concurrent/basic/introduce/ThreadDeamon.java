@@ -1,6 +1,7 @@
 package com.mca.concurrent.basic.introduce;
 
-import com.wy.mac.java.concurrent.util.TimeUnitUtil;
+
+import com.mca.concurrent.util.TimeUnitUtil;
 
 /**
  * Deamon线程详解：
