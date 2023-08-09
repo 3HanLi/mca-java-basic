@@ -1,6 +1,7 @@
 package com.mca.concurrent.lock;
 
-import com.wy.mac.java.concurrent.util.TimeUnitUtil;
+
+import com.mca.concurrent.util.TimeUnitUtil;
 
 import java.util.concurrent.locks.LockSupport;
 

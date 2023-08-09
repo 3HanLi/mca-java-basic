@@ -1,7 +1,7 @@
 package com.mca.concurrent.cas;
 
-import com.wy.mac.java.concurrent.util.TimeUnitUtil;
-import com.wy.mac.java.concurrent.vo.ReferenceUser;
+import com.mca.concurrent.util.TimeUnitUtil;
+import com.mca.concurrent.vo.ReferenceUser;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;

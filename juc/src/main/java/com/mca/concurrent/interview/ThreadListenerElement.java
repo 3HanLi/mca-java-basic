@@ -1,7 +1,7 @@
 package com.mca.concurrent.interview;
 
 import com.google.common.collect.Lists;
-import com.wy.mac.java.concurrent.util.TimeUnitUtil;
+import com.mca.concurrent.util.TimeUnitUtil;
 
 import java.util.List;
 import java.util.Random;

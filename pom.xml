@@ -16,6 +16,7 @@
     <properties>
         <junit-version>4.12</junit-version>
         <lombok-version>1.18.20</lombok-version>
+        <guava-version>18.0</guava-version>
     </properties>
 
     <dependencyManagement>
@@ -30,7 +31,13 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>1.18.20</version>
+                <version>${lombok-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

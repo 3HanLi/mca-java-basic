@@ -1,6 +1,7 @@
 package com.mca.concurrent.lock.cas;
 
-import com.wy.mac.java.concurrent.util.TimeUnitUtil;
+
+import com.mca.concurrent.util.TimeUnitUtil;
 
 /**
  * @author wangyong01
