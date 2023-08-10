@@ -1,6 +1,6 @@
 package com.wy.mca.designmodel.template.impl;
 
-import com.wy.mac.java.designmodel.template.model.AbstractTemplate;
+import com.wy.mca.designmodel.template.model.AbstractTemplate;
 
 /**
  * 具体逻辑由子类实现

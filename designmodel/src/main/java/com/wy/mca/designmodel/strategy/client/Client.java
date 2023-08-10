@@ -1,7 +1,7 @@
 package com.wy.mca.designmodel.strategy.client;
 
-import com.wy.mac.java.designmodel.strategy.context.Travel;
-import com.wy.mac.java.designmodel.strategy.impl.ByTrain;
+import com.wy.mca.designmodel.strategy.context.Travel;
+import com.wy.mca.designmodel.strategy.impl.ByTrain;
 
 /**
  * 高层业务模块

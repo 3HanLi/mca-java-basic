@@ -1,8 +1,8 @@
 package com.wy.mca.designmodel.template;
 
-import com.wy.mac.java.designmodel.template.impl.TemplateImpl01;
-import com.wy.mac.java.designmodel.template.impl.TemplateImpl02;
-import com.wy.mac.java.designmodel.template.model.AbstractTemplate;
+import com.wy.mca.designmodel.template.impl.TemplateImpl01;
+import com.wy.mca.designmodel.template.impl.TemplateImpl02;
+import com.wy.mca.designmodel.template.model.AbstractTemplate;
 
 /**
  * 模板方法单元测试

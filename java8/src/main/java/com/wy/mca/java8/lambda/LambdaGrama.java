@@ -1,10 +1,9 @@
 package com.wy.mca.java8.lambda;
 
-import org.junit.Test;
+import com.wy.mca.java8.vo.Employee;
 
 import java.util.Comparator;
 import java.util.function.Consumer;
-import com.wy.mca.java8.vo.Employee;
 
 /**
  * Lambda表达式语法：
@@ -32,7 +31,6 @@ public class LambdaGrama {
   /**
    * 3.1 无参数，无返回值
    */
-  @Test
   public void noArgsNoReturn(){
     Runnable runnable = () -> System.out.println("wangyongr");
     runnable.run();
@@ -41,7 +39,6 @@ public class LambdaGrama {
   /**
    * 3.2 有一个参数，并且无返回值/若只有一个参数，小括号可以省略不写（不建议）
    */
-  @Test
   public void oneArgNoReturn(){
     Consumer<String> consumer = (x) -> System.out.println("wangyongr_" + x);
     consumer.accept("beibei");
@@ -52,7 +49,6 @@ public class LambdaGrama {
   /**
    * 3.3 有两个以上的参数，有返回值，并且 Lambda 体中有多条语句，则Lambda体需要添加{}
    */
-  @Test
   public void moreArgsReturn(){
     Comparator<Employee> comparator = (x, y) -> {
       System.out.println("param:x" + x + ";y:" + y);
@@ -65,7 +61,6 @@ public class LambdaGrama {
   /**
    * 3.4 若 Lambda 体中只有一条语句， return 和 大括号都可以省略不写
    */
-  @Test
   public void moreArgsReturn2(){
     Comparator<Employee> comparator = (x,y) -> Integer.compare(x.getAge(),y.getAge());
     int compare = comparator.compare(new Employee(1, 18, "boy"), new Employee(2, 15, "girl"));
@@ -75,7 +70,6 @@ public class LambdaGrama {
   /**
    * 3.5 Lambda 表达式的参数列表的数据类型可以省略不写，因为JVM编译器通过上下文推断出，数据类型，即“类型推断”（了解）
    */
-  @Test
   public void ignoreParamType(){
     Comparator<Employee> comparator1 = (Employee x,Employee y) -> Integer.compare(x.getAge(),y.getAge());
     Comparator<Employee> comparator2 = (x,y) -> Integer.compare(x.getAge(),y.getAge());

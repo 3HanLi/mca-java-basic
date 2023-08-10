@@ -1,7 +1,7 @@
 package com.wy.mca.designmodel.solid.dip.impl;
 
-import com.wy.mac.java.designmodel.solid.dip.itf.ICar;
-import com.wy.mac.java.designmodel.solid.dip.itf.IDriver02;
+import com.wy.mca.designmodel.solid.dip.itf.ICar;
+import com.wy.mca.designmodel.solid.dip.itf.IDriver02;
 
 /**
  * 通过接口声明的方式

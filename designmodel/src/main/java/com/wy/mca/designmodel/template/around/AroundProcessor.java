@@ -1,6 +1,6 @@
 package com.wy.mca.designmodel.template.around;
 
-import com.wy.mac.java.designmodel.project.template.rule.itf.IRule;
+import com.wy.mca.designmodel.template.rule.itf.IRule;
 
 import java.util.ArrayList;
 import java.util.List;

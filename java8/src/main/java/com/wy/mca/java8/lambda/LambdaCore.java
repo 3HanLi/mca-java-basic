@@ -1,7 +1,5 @@
 package com.wy.mca.java8.lambda;
 
-import org.junit.Test;
-
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -27,7 +25,6 @@ import java.util.function.Supplier;
  */
 public class LambdaCore {
 
-  @Test
   public void consume(){
     //1  Consumer<T> : 消费型接口
     Consumer<String> consumer = x -> System.out.println(x + ":consume");

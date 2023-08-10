@@ -1,7 +1,7 @@
 package com.wy.mca.designmodel.solid.dip.impl;
 
-import com.wy.mac.java.designmodel.solid.dip.itf.ICar;
-import com.wy.mac.java.designmodel.solid.dip.itf.IDriver;
+import com.wy.mca.designmodel.solid.dip.itf.ICar;
+import com.wy.mca.designmodel.solid.dip.itf.IDriver;
 
 /**
  * 构造函数传递依赖对象

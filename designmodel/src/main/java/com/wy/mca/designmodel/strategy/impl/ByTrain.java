@@ -1,6 +1,6 @@
 package com.wy.mca.designmodel.strategy.impl;
 
-import com.wy.mac.java.designmodel.strategy.itf.IRoute;
+import com.wy.mca.designmodel.strategy.itf.IRoute;
 
 /**
  * 具体策略：通过坐火车

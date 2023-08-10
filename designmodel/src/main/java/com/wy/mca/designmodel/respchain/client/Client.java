@@ -1,11 +1,11 @@
 package com.wy.mca.designmodel.respchain.client;
 
-import com.wy.mac.java.designmodel.respchain.handler.AbstractHandlerTemplate;
-import com.wy.mac.java.designmodel.respchain.handler.Handler01;
-import com.wy.mac.java.designmodel.respchain.handler.Handler02;
-import com.wy.mac.java.designmodel.respchain.handler.Handler03;
-import com.wy.mac.java.designmodel.respchain.req.Request;
-import com.wy.mac.java.designmodel.respchain.resp.Response;
+import com.wy.mca.designmodel.respchain.handler.AbstractHandlerTemplate;
+import com.wy.mca.designmodel.respchain.handler.Handler01;
+import com.wy.mca.designmodel.respchain.handler.Handler02;
+import com.wy.mca.designmodel.respchain.handler.Handler03;
+import com.wy.mca.designmodel.respchain.req.Request;
+import com.wy.mca.designmodel.respchain.resp.Response;
 
 /**
  * 职责链测试

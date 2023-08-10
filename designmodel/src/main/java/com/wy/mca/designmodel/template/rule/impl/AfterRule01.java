@@ -1,5 +1,6 @@
 package com.wy.mca.designmodel.template.rule.impl;
-import com.wy.mac.java.designmodel.project.template.rule.itf.IRule;
+
+import com.wy.mca.designmodel.template.rule.itf.IRule;
 
 /**
  * 后规则

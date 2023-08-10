@@ -1,7 +1,8 @@
 package com.wy.mca.designmodel.solid.lod.myself;
 
-import com.wy.mac.java.designmodel.solid.lod.friend.GroupLeader;
-import com.wy.mac.java.designmodel.solid.lod.friend.Member;
+
+import com.wy.mca.designmodel.solid.lod.friend.GroupLeader;
+import com.wy.mca.designmodel.solid.lod.friend.Member;
 
 import java.util.List;
 

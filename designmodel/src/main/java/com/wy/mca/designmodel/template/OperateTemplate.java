@@ -1,7 +1,7 @@
 package com.wy.mca.designmodel.template;
 
-import com.wy.mac.java.designmodel.project.template.around.AroundProcessor;
-import com.wy.mac.java.designmodel.project.template.itf.IOperator;
+import com.wy.mca.designmodel.template.around.AroundProcessor;
+import com.wy.mca.designmodel.template.itf.IOperator;
 
 /**
  * 模板

@@ -1,7 +1,6 @@
 package com.wy.mca.java8.ref;
 
 import com.wy.mca.java8.vo.Employee;
-import org.junit.Test;
 
 import java.util.Comparator;
 import java.util.function.BiPredicate;
@@ -33,7 +32,6 @@ public class LambdaMethodRef {
   /**
    * 1.0 若 Lambda 体中的功能，已经有方法提供了实现，可以使用方法引用
    */
-  @Test
   public void test01(){
     //传统写法
     Consumer<String> con = (str) -> System.out.println(str);
@@ -47,7 +45,6 @@ public class LambdaMethodRef {
   /**
    * 1.1 对象的引用 :: 实例方法名
    */
-  @Test
   public void objectRef(){
     //传统写法
     Employee employee = new Employee(1, 25, "wangyongr");
@@ -62,7 +59,6 @@ public class LambdaMethodRef {
   /**
    * 1.2 类名 :: 静态方法名
    */
-  @Test
   public void staticMethodRef(){
     Comparator<Integer> com1 = (x, y) -> Integer.compare(x, y);
     
@@ -72,7 +68,6 @@ public class LambdaMethodRef {
   /**
    * 1.3 类名 :: 实例方法名
    */
-  @Test
   public void instanceMethodRef(){
     BiPredicate<String, String> bp = (x, y) -> x.equals(y);
     System.out.println(bp.test("abcde", "abcde"));
@@ -85,7 +80,6 @@ public class LambdaMethodRef {
    * 2  构造器引用 :构造器的参数列表，需要与函数式接口中参数列表保持一致！
    * 2.1  类名 :: new   
    */
-  @Test
   public void constructRef(){
     //等同于new Employee();
     Supplier<Employee> sup = Employee::new;
@@ -100,7 +94,6 @@ public class LambdaMethodRef {
    * 3 数组引用
    * 3.1 类型[] :: new;
    */
-  @Test
   public void arrayRef(){
     Function<Integer, String[]> fun = (args) -> new String[args];
     String[] strs = fun.apply(10);

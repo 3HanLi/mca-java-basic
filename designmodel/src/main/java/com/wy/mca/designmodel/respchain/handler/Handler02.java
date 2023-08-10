@@ -1,7 +1,7 @@
 package com.wy.mca.designmodel.respchain.handler;
 
-import com.wy.mac.java.designmodel.respchain.req.Request;
-import com.wy.mac.java.designmodel.respchain.resp.Response;
+import com.wy.mca.designmodel.respchain.req.Request;
+import com.wy.mca.designmodel.respchain.resp.Response;
 
 /**
  * 责任链：第二个处理器

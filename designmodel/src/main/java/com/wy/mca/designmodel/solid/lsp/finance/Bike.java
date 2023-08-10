@@ -1,6 +1,6 @@
 package com.wy.mca.designmodel.solid.lsp.finance;
 
-import com.wy.mac.java.designmodel.solid.lsp.father.Father;
+import com.wy.mca.designmodel.solid.lsp.father.Father;
 
 public class Bike {
 

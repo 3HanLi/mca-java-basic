@@ -1,6 +1,6 @@
 package com.wy.mca.designmodel.strategy.context;
 
-import com.wy.mac.java.designmodel.strategy.itf.IRoute;
+import com.wy.mca.designmodel.strategy.itf.IRoute;
 
 /**
  * 具体封装类Context：对算法进行封装

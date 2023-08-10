@@ -1,6 +1,6 @@
 package com.wy.mca.designmodel.template.impl;
 
-import com.wy.mac.java.designmodel.project.template.itf.IOperator;
+import com.wy.mca.designmodel.template.itf.IOperator;
 
 /**
  * 核心逻辑02

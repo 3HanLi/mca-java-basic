@@ -1,8 +1,8 @@
 package com.wy.mca.designmodel.solid.lsp;
 
-import com.wy.mac.java.designmodel.solid.lsp.father.Father;
-import com.wy.mac.java.designmodel.solid.lsp.finance.Bike;
-import com.wy.mac.java.designmodel.solid.lsp.son.RealSon01;
+import com.wy.mca.designmodel.solid.lsp.father.Father;
+import com.wy.mca.designmodel.solid.lsp.finance.Bike;
+import com.wy.mca.designmodel.solid.lsp.son.RealSon01;
 
 public class LspClient {
 

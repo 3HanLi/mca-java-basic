@@ -1,6 +1,6 @@
 package com.wy.mca.designmodel.solid.lsp.son;
 
-import com.wy.mac.java.designmodel.solid.lsp.father.Father;
+import com.wy.mca.designmodel.solid.lsp.father.Father;
 
 /**
  * 继承父类：拥有父类的属性、方法
