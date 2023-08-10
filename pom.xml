@@ -9,17 +9,23 @@
         <module>java8</module>
         <module>juc</module>
         <module>designmodel</module>
+        <module>io</module>
     </modules>
 
     <version>1.0.0-SNAPSHOT</version>
     <name>java-basic</name>
 
     <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
         <junit-version>4.12</junit-version>
         <lombok-version>1.18.20</lombok-version>
         <guava-version>18.0</guava-version>
         <hutool-version>5.1.0</hutool-version>
         <cglib-version>3.3.0</cglib-version>
+        <netty-version>4.1.50.Final</netty-version>
     </properties>
 
     <dependencyManagement>
@@ -53,6 +59,12 @@
                 <groupId>cglib</groupId>
                 <artifactId>cglib-nodep</artifactId>
                 <version>${cglib-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
