@@ -1,4 +1,4 @@
-package com.wy.mca.io.nio;
+package com.wy.mca.io.nio.channel;
 
 import com.google.common.collect.Lists;
 
@@ -8,19 +8,22 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.List;
 
-public class NIOServerSocket {
+/**
+ * ServerSocketChannel使用
+ */
+public class ServerSocketChannelClient01 {
 
     public static void main(String[] args) throws Exception{
         //1.1 创建ServerSocketChannel，获取fd
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         //1.2 绑定端口号
         serverSocketChannel.bind(new InetSocketAddress(9090));
-        //设置非阻塞
+        //1.3 设置非阻塞
         serverSocketChannel.configureBlocking(false);
 
         List<SocketChannel> clientSocketList = Lists.newArrayList();
         while (true){
-            //1.3 监听
+            //1.4 监听
             SocketChannel socketChannel = serverSocketChannel.accept();
 
             //2.1 获取到client，设置非阻塞

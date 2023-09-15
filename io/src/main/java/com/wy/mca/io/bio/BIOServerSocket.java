@@ -8,6 +8,9 @@ import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * BIO模式下的ServerSocket
+ */
 public class BIOServerSocket {
 
     public static void main(String[] args) throws IOException {
