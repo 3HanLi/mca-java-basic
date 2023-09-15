@@ -16,8 +16,8 @@ public class BIOServerSocket {
     public static void main(String[] args) throws IOException {
         //1 Server启动
         //1.1 启动server socket，得到fd3
-        //1.2 将fd3绑定到端口号9090，用于监听外部请求
         ServerSocket serverSocket = new ServerSocket();
+        //1.2 将fd3绑定到端口号9090，用于监听外部请求
         serverSocket.bind(new InetSocketAddress("localhost", 9090));
         System.out.println("Server bind port : 9090");
 
@@ -25,9 +25,8 @@ public class BIOServerSocket {
         System.in.read();
 
         while (true){
-
             //2.2 调用accept方法后，会分配fd5，代表来自client的连接；
-            //3.1  在BIO模式下，如果没有client连接，那么server会阻塞在这里，因而我们需要抛出线程，避免后续的client连接阻塞
+            //3.1 在BIO模式下，如果没有client连接，那么server会阻塞在这里，因而我们需要抛出线程，避免后续的client连接阻塞
             Socket client = serverSocket.accept();
             System.out.println("Receive client ip:" + client.getInetAddress().getHostAddress() + "; port:" + client.getPort());
 
@@ -48,7 +47,6 @@ public class BIOServerSocket {
                             System.out.println("Read char Nums : "+ readNums + ";Read chars:" + new String(chars));
                         }else if (readNums == 0){
                             System.out.println("Read nothing");
-                            continue;
                         }else {
                             System.out.println("Client closed");
                             client.close();
