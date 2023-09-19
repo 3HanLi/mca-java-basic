@@ -5,6 +5,11 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ * BIO模式下的Client
+ * @date 2021年09月15日 16:14:00
+ * @author wangyong01
+ */
 public class BIOClient {
 
     public static void main(String[] args) throws Exception{

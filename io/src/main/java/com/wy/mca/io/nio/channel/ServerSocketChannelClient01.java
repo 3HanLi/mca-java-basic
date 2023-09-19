@@ -10,6 +10,8 @@ import java.util.List;
 
 /**
  * ServerSocketChannel使用
+ * @date 2021/9/15 6:14 PM
+ * @author wangyong01
  */
 public class ServerSocketChannelClient01 {
 
@@ -26,8 +28,8 @@ public class ServerSocketChannelClient01 {
             //1.4 监听
             SocketChannel socketChannel = serverSocketChannel.accept();
 
-            //2.1 获取到client，设置非阻塞
             if (null != socketChannel){
+                //2.1 获取到client，设置非阻塞
                 socketChannel.configureBlocking(false);
                 //2.2 将连接的client加入fds集合
                 clientSocketList.add(socketChannel);
@@ -36,7 +38,7 @@ public class ServerSocketChannelClient01 {
             ByteBuffer byteBuffer = ByteBuffer.allocateDirect(8096);
             //2.3 遍历每一个fd进行读取，查看是否有数据，存在如下弊端：a) 我们需要遍历全量的fds b) 每次都要重复传入同样的fds遍历
             for (SocketChannel client : clientSocketList){
-                int readNum = socketChannel.read(byteBuffer);
+                int readNum = client.read(byteBuffer);
                 //2.4 如果能读取到数据，进行处理
                 if (readNum > 0){
                     //3.1 切换读取模式
