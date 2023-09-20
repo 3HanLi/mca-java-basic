@@ -1,4 +1,4 @@
-package com.wy.mca.io.reference;
+package com.wy.mca.io.reference.bio;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,6 +10,7 @@ import java.net.Socket;
 
 /**
  * BIO案例演示
+ *
  * @author wangyong01
  */
 public class SocketIOProperties {
@@ -111,7 +112,6 @@ public class SocketIOProperties {
                                 System.out.println("client read some data is :" + num + " val :" + new String(data, 0, num));
                             } else if (num == 0) {
                                 System.out.println("client readed nothing!");
-                                continue;
                             } else {
                                 System.out.println("client readed -1...");
                                 System.in.read();

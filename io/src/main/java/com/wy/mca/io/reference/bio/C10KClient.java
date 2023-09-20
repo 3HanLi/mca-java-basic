@@ -1,4 +1,4 @@
-package com.wy.mca.io.reference;
+package com.wy.mca.io.reference.bio;
 
 import com.google.common.collect.Lists;
 
